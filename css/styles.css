@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header p {
+    height: 61px;
+    background-color: #1CD1B0;
+    font-size: 48px;
+    padding-left: 3.3%;
+}
+header h1 {
+    height: 123px;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 72px;
+    padding-left: 3.3%;
+    padding-top: 39px;
+}
+main div {
+    position: relative;
+    margin: 0 auto;
+}
+.first-card {
+    margin-top: 47px;
+}
+.last-card {
+    margin-bottom: 275.5px;
+}
+.top-card{
+    width: 39.2%;
+    height: 555px;
+    border-radius: 67px;
+}
+/* Card Background */
+.bg-batman {
+    background-image: url('../img/bg-batman.jpg');
+    background-position: 70%;
+    background-size: 200%;
+}
+.bg-wonder-woman {
+    background-image: url('../img/bg-wonderw.jpg');
+    background-position: 70%;
+    background-size: 200%;
+}
+.bg-superman {
+    background-image: url('../img/bg-superman.jpg');
+    background-position: 70%;
+    background-size: 200%;
+}
+.heart {
+    margin-left: 7.1%;
+    margin-top: 5.5%;
+}
+.pic-profile {
+    position: absolute;
+    margin: 0 auto 0;
+    left: 0;
+    right: 0;
+    top: 22%;
+    z-index: 100;
+    width: 352px;
+    height: 352px;
+    border-radius: 50%;
+}
+/* Profile Pics */
+.pic-batman {
+    background-image: url('../img/batman.jpg');
+    background-position: 58% 5%;
+}
+.pic-wonder-woman {
+    background-image: url('../img/wonderw.jpg');
+    background-position: 51% 0;
+    background-size: 210%;
+}
+.pic-superman {
+    background-image: url('../img/superman.jpg');
+    background-position: 43% 49%;
+    background-size: 240%;
+}
+.card-description {    
+    position: relative;
+    margin: 0 auto 0;
+    top: -62.5px;
+    width: 39.2%;
+    height: 872px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 137.5px;
+}
+.card-description h1 {
+    text-align: center;
+    padding-top: 194px;
+    font-size: 64px;
+}
+.card-description p {
+    width: 89.2%;
+    height: 348px;
+    margin: 32px auto 32px;
+    font-size: 36px;
+    color: #333333;
+}
+.card-description div {
+    width: 43%;
+    height: 78px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+
+
+
+footer {
+    background-color: #00669F;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 36px;
+    color: #FFF9F9;
+}
