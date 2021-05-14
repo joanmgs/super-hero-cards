@@ -127,7 +127,23 @@ main div {
 }
 
 /* --------- Aside --------- */
-
+.cross {
+    position: fixed;
+    top: 50%;
+    right: 5.2%;
+    width: 150px;
+    height: 150px;
+    background-color: #00669F;
+    color: #FFFFFF;    
+    border-radius: 50%;
+    font-size: 96px;
+    text-align: center;
+}
+.cross span {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+}
 
 /* --------- Footer --------- */
 footer {
